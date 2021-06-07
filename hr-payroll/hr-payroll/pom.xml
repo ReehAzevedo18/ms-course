@@ -43,6 +43,13 @@
 			<version>2.2.8.RELEASE</version>
 		</dependency>
 
+		<!--Adicionada manualmente dependencia de client-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<version>2.2.8.RELEASE</version>
+		</dependency>
+
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
